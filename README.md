@@ -1,4 +1,4 @@
-# ml-book-rating-predictor
+# ML-Book-Rating-Predictor
 
 Bu proje, Goodreads 100K kitap veri seti kullanılarak, kitapların sayfa sayısı, yorum sayısı ve toplam oy sayısı gibi sayısal özelliklerine göre **yüksek puan (rating ≥ 4.0)** alıp almayacağını tahmin etmeyi amaçlamaktadır. Projede gözetimli öğrenme algoritmalarından **Logistic Regression** ve **Random Forest** kullanılmış, hiperparametre optimizasyonu için **GridSearchCV** uygulanmıştır.
 
@@ -68,5 +68,6 @@ Bu yöndeki çalışmalar, projeyi gerçek dünya kullanımına daha da yaklaşt
 ## Linkler
 
 [- [Kaggle Notebook - ml-book-rating-predictor](https://www.kaggle.com/code/evvalerel/ml-book-rating-predictor)  ](https://www.kaggle.com/code/evvalerel/ml-book-rating-predictor)
+
 [- [Veri Seti - GoodReads 100k Books](https://www.kaggle.com/datasets/meetnaren/goodreads-best-books)](https://www.kaggle.com/datasets/mdhamani/goodreads-books-100k)
 
