@@ -2,7 +2,6 @@
 
 Bu proje, Goodreads 100K kitap veri seti kullanılarak, kitapların sayfa sayısı, yorum sayısı ve toplam oy sayısı gibi sayısal özelliklerine göre **yüksek puan (rating ≥ 4.0)** alıp almayacağını tahmin etmeyi amaçlamaktadır. Projede gözetimli öğrenme algoritmalarından **Logistic Regression** ve **Random Forest** kullanılmış, hiperparametre optimizasyonu için **GridSearchCV** uygulanmıştır.
 
----
 
 ## Giriş
 
@@ -17,7 +16,6 @@ Başlıca adımlar şunlardır:
 - Model çıktılarının confusion matrix, classification report, ROC eğrisi ve feature importance ile değerlendirilmesi  
 - EDA kapsamında tür, sayfa sayısı, yorum ve puan dağılımı görselleştirilmiştir
 
----
 
 ## Metrikler
 
@@ -29,7 +27,6 @@ Model başarıları aşağıdaki metriklerle değerlendirilmiştir:
 
 Ayrıca ROC eğrisi, karışıklık matrisi ve değişken önem sıralaması ile modelin davranışı detaylı analiz edilmiştir.
 
----
 
 ## Yorum ve Analiz
 
@@ -40,7 +37,6 @@ Proje kapsamında yapılan analizlerde şu değerlendirmeler öne çıkmıştır
 - Sayfa sayısı ve puan dağılımı dengesizdir ancak model için anlamlı sinyaller üretmektedir.
 - Kategorik ve metinsel veriler henüz kullanılmamıştır, gelecekte model iyileştirmesi için bu veriler entegre edilebilir.
 
----
 
 ## Sonuç ve Gelecek Çalışmalar
 
@@ -61,7 +57,6 @@ Bu sistem, eğitilen modelin çıktılarıyla kişiselleştirilmiş öneriler su
 
 Bu yöndeki çalışmalar, projeyi gerçek dünya kullanımına daha da yaklaştıracak ve ileri düzey uygulamalara geçiş için güçlü bir zemin oluşturacaktır.
 
----
 
 ## Linkler
 
